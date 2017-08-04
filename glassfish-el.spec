@@ -6,7 +6,7 @@
 
 Name:          %{?scl_prefix}glassfish-el
 Version:       3.0.1
-Release:       0.4.b08.1%{?dist}
+Release:       0.4.b08.2%{?dist}
 Summary:       J2EE Expression Language Implementation
 License:       CDDL or GPLv2 with exceptions
 URL:           http://uel.java.net
@@ -156,6 +156,9 @@ cp -p api/src/main/javadoc/doc-files/*-spec-license.html .
 %license LICENSE.txt LICENSE-2.0.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 3.0.1-0.4.b08.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 3.0.1-0.4.b08.1
 - Automated package import and SCL-ization
 
